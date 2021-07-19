@@ -265,8 +265,9 @@ body > section.projects > div.projects > label::before {
   content: "▹ Featured Project : ";
   left: 10vw;
   background-color: var(--navy);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 
 /*   =====================================================================
